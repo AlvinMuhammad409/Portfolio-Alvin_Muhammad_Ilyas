@@ -1,15 +1,6 @@
-/**
-* Template Name: Kelly - v4.9.0
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
-  /**
-   * Easy selector helper function
-   */
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -20,7 +11,7 @@
   }
 
   /**
-   * Easy event listener function
+   *  event listener function
    */
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
@@ -34,7 +25,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * on scroll event listener 
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
